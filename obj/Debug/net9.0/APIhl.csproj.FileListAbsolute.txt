@@ -1,0 +1,14 @@
+C:\Users\Ferni\Desktop\APIhl\bin\Debug\net9.0\APIhl.exe
+C:\Users\Ferni\Desktop\APIhl\bin\Debug\net9.0\APIhl.deps.json
+C:\Users\Ferni\Desktop\APIhl\bin\Debug\net9.0\APIhl.runtimeconfig.json
+C:\Users\Ferni\Desktop\APIhl\bin\Debug\net9.0\APIhl.dll
+C:\Users\Ferni\Desktop\APIhl\bin\Debug\net9.0\APIhl.pdb
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.AssemblyInfoInputs.cache
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.AssemblyInfo.cs
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.csproj.CoreCompileInputs.cache
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.dll
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\refint\APIhl.dll
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.pdb
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.genruntimeconfig.cache
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\ref\APIhl.dll

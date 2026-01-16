@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "Title": "The Shawshank Redemption",
+    "ImdbRating": 9.3,
+    "Year": 1994
+  },
+  {
+    "Id": 2,
+    "Title": "The Godfather",
+    "ImdbRating": 9.2,
+    "Year": 1972
+  },
+  {
+    "Id": 3,
+    "Title": "The Dark Knight",
+    "ImdbRating": 9,
+    "Year": 2008
+  },
+  {
+    "Id": 4,
+    "Title": "Pulp Fiction",
+    "ImdbRating": 8.9,
+    "Year": 1994
+  },
+  {
+    "Id": 5,
+    "Title": "The Lord of the Rings: The Return of the King",
+    "ImdbRating": 8.9,
+    "Year": 2003
+  },
+  {
+    "Id": 6,
+    "Title": "Forrest Gump",
+    "ImdbRating": 8.8,
+    "Year": 1994
+  },
+  {
+    "Id": 7,
+    "Title": "Inception",
+    "ImdbRating": 8.8,
+    "Year": 2010
+  },
+  {
+    "Id": 8,
+    "Title": "Fight Club",
+    "ImdbRating": 8.8,
+    "Year": 1999
+  },
+  {
+    "Id": 9,
+    "Title": "The Matrix",
+    "ImdbRating": 8.7,
+    "Year": 1999
+  },
+  {
+    "Id": 10,
+    "Title": "Goodfellas",
+    "ImdbRating": 8.7,
+    "Year": 1990
+  },
+  {
+    "Id": 11,
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "ImdbRating": 8.8,
+    "Year": 2001
+  },
+  {
+    "Id": 12,
+    "Title": "Star Wars: Episode V - The Empire Strikes Back",
+    "ImdbRating": 8.7,
+    "Year": 1980
+  },
+  {
+    "Id": 13,
+    "Title": "Interstellar",
+    "ImdbRating": 8.6,
+    "Year": 2014
+  },
+  {
+    "Id": 14,
+    "Title": "The Green Mile",
+    "ImdbRating": 8.6,
+    "Year": 1999
+  },
+  {
+    "Id": 15,
+    "Title": "Se7en",
+    "ImdbRating": 8.6,
+    "Year": 1995
+  },
+  {
+    "Id": 16,
+    "Title": "The Silence of the Lambs",
+    "ImdbRating": 8.6,
+    "Year": 1991
+  },
+  {
+    "Id": 17,
+    "Title": "Saving Private Ryan",
+    "ImdbRating": 8.6,
+    "Year": 1998
+  },
+  {
+    "Id": 18,
+    "Title": "The Prestige",
+    "ImdbRating": 8.5,
+    "Year": 2006
+  },
+  {
+    "Id": 19,
+    "Title": "Gladiator",
+    "ImdbRating": 8.5,
+    "Year": 2000
+  },
+  {
+    "Id": 20,
+    "Title": "Memento",
+    "ImdbRating": 8.4,
+    "Year": 2000
+  }
+]
