@@ -8,15 +8,15 @@ namespace APIhl.Main
         {
             MovieService service = new MovieService();
 
-            // 🔹 Ping inicial a la API
+            
             try
             {
-                await service.CheckApi(); // Llamada de verificación
+                await service.CheckApi(); // Comprobación
             }
             catch
             {
                 Console.WriteLine("❌ No se puede conectar con la API Node.js. Levanta host.js primero.");
-                return; // Termina el programa
+                return; 
             }
 
             bool exit = false;

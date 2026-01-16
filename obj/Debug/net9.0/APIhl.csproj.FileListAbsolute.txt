@@ -12,3 +12,4 @@ C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\refint\APIhl.dll
 C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.pdb
 C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.genruntimeconfig.cache
 C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\ref\APIhl.dll
+C:\Users\Ferni\Desktop\APIhl\obj\Debug\net9.0\APIhl.sourcelink.json
