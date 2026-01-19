@@ -11,7 +11,8 @@ function loadData() {
 function saveData(data) {
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf-8");
 }
-
+// Aquí nos encargamos de  controlar de la API de películas.
+//  Se encarga de leer y escribir en movies.json y de manejar las operaciones de la API
 // GET 
 function getMovies(req, res) {
     const movies = loadData();
@@ -20,6 +21,7 @@ function getMovies(req, res) {
 }
 
 // POST 
+
 function addMovie(req, res) {
     const movies = loadData();
     let body = "";
@@ -102,5 +104,5 @@ function getGame(req, res) {
     res.end(JSON.stringify({ movieA, movieB }, null, 2));
 }
 
-// Exportaamos las funciones
+// Exportamos las funciones
 module.exports = { getMovies, addMovie, updateMovie, deleteMovie, getGame };

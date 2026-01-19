@@ -23,6 +23,8 @@ namespace APIhl.Main
 
             while (!exit)
             {
+                // Menú principal de nuestra API
+                
                 Console.WriteLine("\n--- MOVIE HIGHER OR LOWER ---");
                 Console.WriteLine("1. Ver películas (GET)");
                 Console.WriteLine("2. Añadir película (POST)");

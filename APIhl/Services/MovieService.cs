@@ -8,7 +8,7 @@ namespace APIhl.Services
     public class MovieService
     {
         private readonly HttpClient client;
-        private readonly string baseUrl = "http://localhost:3000"; 
+        private readonly string baseUrl = "http://localhost:3000";
 
         public MovieService()
         {
@@ -18,9 +18,11 @@ namespace APIhl.Services
         public async Task CheckApi()
         {
             var response = await client.GetAsync($"{baseUrl}/movies");
-            response.EnsureSuccessStatusCode(); 
+            response.EnsureSuccessStatusCode();
         }
 
+        // Aquí tenemos   el servicio del cliente C# que se comunica con la API 
+        // Se encarga de hacer peticiones HTTP para cada uno de los métodos (GET,POST)...
 
         // GET 
         public async Task GetMovies()
@@ -89,6 +91,8 @@ namespace APIhl.Services
 
                 if (response.IsSuccessStatusCode)
                 {
+                    // Si se ha realizado correctamente te se indica
+                    
                     var updated = await response.Content.ReadFromJsonAsync<Movie>();
                     Console.WriteLine($"Película modificada ✅ Id: {updated!.Id}");
                 }
@@ -166,7 +170,7 @@ namespace APIhl.Services
                         Console.WriteLine("¡Correcto! Sigamos →");
                         movieA = movieB;
 
-                        
+
                         response = await client.GetAsync($"{baseUrl}/game");
                         json = await response.Content.ReadAsStringAsync();
                         using var newDoc = JsonDocument.Parse(json);

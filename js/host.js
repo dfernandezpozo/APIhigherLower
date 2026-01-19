@@ -7,6 +7,9 @@ const {
   getGame,
 } = require("./controllers/moviesController");
 
+// Este código crea un servidor HTTP en Node.js que escucha en el puerto 3000 y 
+// dirige las solicitudes a funciones específicas según la ruta y el método HTTP
+
 const server = http.createServer((req, res) => {
   if (req.url === "/movies" && req.method === "GET") getMovies(req, res);
   else if (req.url === "/movies" && req.method === "POST") addMovie(req, res);
