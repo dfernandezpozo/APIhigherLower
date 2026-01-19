@@ -112,7 +112,7 @@ namespace APIhl.Services
         {
             try
             {
-                Console.Write("ID de la película a borrar: ");
+                Console.Write("ID de la película que desea  borrar: ");
                 int id = int.Parse(Console.ReadLine()!);
 
                 var response = await client.DeleteAsync($"{baseUrl}/movies/{id}");
@@ -139,7 +139,7 @@ namespace APIhl.Services
                 var response = await client.GetAsync($"{baseUrl}/game");
                 if (!response.IsSuccessStatusCode)
                 {
-                    Console.WriteLine("No se pudo iniciar el juego ❌");
+                    Console.WriteLine("No se ha podido iniciar el juego ❌");
                     return;
                 }
 
@@ -167,7 +167,7 @@ namespace APIhl.Services
                     if (correct)
                     {
                         score++;
-                        Console.WriteLine("¡Correcto! Sigamos →");
+                        Console.WriteLine("¡Correcto! Continuamos →");
                         movieA = movieB;
 
 
